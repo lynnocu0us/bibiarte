@@ -39,10 +39,12 @@ body {
   color: #000000;
   display: block;
   line-height: 1.8;
+  cursor: url("images/cursor.svg"), crosshair;
 }
 
 .sidenav a:hover {
-  color: #ff8800;
+  background-color: #ff8800;
+  cursor: url("images/cursor.svg"), crosshair;
 }
 
 .nav-items{
@@ -106,6 +108,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 12.5rem);
     gap: .5rem;
+    cursor: url("images/cursor.svg"), crosshair;
 }
 
 /* Gallery Layout */

@@ -15,8 +15,9 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
+  cursor: url("images/cursor.svg"), crosshair;
 }
-.active a{
+.nav-items a.active{
     color: #ff8800;
 }
 .sidenav {

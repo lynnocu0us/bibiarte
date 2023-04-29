@@ -15,11 +15,12 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
+  cursor: url("images/cursor.svg"), crosshair;
 }
 
 .sidenav {
   height: 100%;
-  width: min(210px, 18vmax);
+  width: min(310px, 22vmax);
   position: fixed;
   z-index: 1;
   top: 0;
@@ -46,6 +47,9 @@ body {
     margin-top: 20%;
 }
 
+.nav-items a.active{
+    color: #ff8800;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -93,8 +97,8 @@ body {
 
 .wrapper {
     max-width: 100rem;
-    margin-left: 300px;
-    margin-right: 10%;
+    margin-left: 400px;
+    margin-right: 5%;
 }
 
 /* Gallery */
@@ -228,7 +232,7 @@ body {
 
 /* Gallery Overlay Text */
 .gallery__overlay span {
-    position: relative;
+    text-align: center;
     line-height: 3rem;
 }
 
